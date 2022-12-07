@@ -77,7 +77,7 @@ Code starts with `Go` and ends with `Stop`. Between the block will have all the 
 
 ```txt
 
-<Program> --> Begin <stmt_list> End
+<Program> --> Go <stmt_list> Stop
 <stmt_list> --> {<stmt> `;`}
 <stmt> --> <if_stmt> | <while_stmt> | <as_s>  | <declaration>
 <if_stmt> --> Check  `(` <bool> `)` `{` <stmt_list> `}`
