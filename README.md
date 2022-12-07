@@ -221,16 +221,16 @@ Stop
 
 ### LR(1) Grammar/Parse Table
 
-![Grammar table](https://raw.githubusercontent.com/iShayanNabi/ArcadeLangTestUpdate/main/T.jpg)
+![Grammar table](https://raw.githubusercontent.com/iShayanNabi/ArcadeLangTestUpdate/main/T.JPG)
 
 ### Fail I
-![Grammar table](https://raw.githubusercontent.com/iShayanNabi/ArcadeLangTestUpdate/main/f1.jpg)
+![Grammar table](https://raw.githubusercontent.com/iShayanNabi/ArcadeLangTestUpdate/main/f1.JPG)
 
 ### Pass I
-![Grammar table](https://raw.githubusercontent.com/iShayanNabi/ArcadeLangTestUpdate/main/p1.jpg)
+![Grammar table](https://raw.githubusercontent.com/iShayanNabi/ArcadeLangTestUpdate/main/p1.JPG)
 
 ### Fail II
-![Grammar table](https://raw.githubusercontent.com/iShayanNabi/ArcadeLangTestUpdate/main/f2.jpg)
+![Grammar table](https://raw.githubusercontent.com/iShayanNabi/ArcadeLangTestUpdate/main/f2.JPG)
 
 ### Pass II
-![Grammar table](https://raw.githubusercontent.com/iShayanNabi/ArcadeLangTestUpdate/main/p2.jpg)
+![Grammar table](https://raw.githubusercontent.com/iShayanNabi/ArcadeLangTestUpdate/main/p2.JPG)
