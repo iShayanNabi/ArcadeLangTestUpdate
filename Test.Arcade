@@ -1,0 +1,8 @@
+Go 
+    MINI var;
+    var = 3 - (4 * 2);
+
+    Check (var < 5){
+        var = var + 1;
+    }
+Stop
