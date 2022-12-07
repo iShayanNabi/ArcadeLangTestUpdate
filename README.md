@@ -22,8 +22,8 @@ Code starts with `Go` and ends with `Stop`. Between the block will have all the 
 | MULTIPLICATION              | \*        | \*    |
 | DIVISION              | /         | /     |
 | MODULUS              | %         | %     |
-| PARENTHESISOPEN  | (         | )     |
-| PARENTHESISCLOSE | )         | )     |
+| OP               | (         | (     |
+| CP               | )         | )     |
 
 ### Mathematical Equators
 
@@ -38,12 +38,12 @@ Code starts with `Go` and ends with `Stop`. Between the block will have all the 
 
 ### Integer Types
 
-| Token Code | Size    |
-| ---------- | ------- |
-| MINI       | 1 byte  |
-| NORMAL     | 2 bytes |
-| PRO        | 4 bytes |
-| PROMAX     | 8 bytes |
+| Token Code | Size    | Literal |
+| ---------- | ------- | ------- |
+| MINI       | 1 byte  | 1b      |
+| NORMAL     | 2 bytes | 2b      |
+| PRO        | 4 bytes | 3b      |
+| PROMAX     | 8 bytes | 4b      |
 
 ### Keyword Types
 
@@ -62,8 +62,8 @@ Code starts with `Go` and ends with `Stop`. Between the block will have all the 
 | ASSIGNMENT       | =         | =     |
 | CODEBLOCKOPEN    | {         | {     |
 | CODEBLOCKCLOSE   | }         | }     |
-| PARENTHESISOPEN  | (         | )     |
-| PARENTHESISCLOSE | )         | )     |
+| OP               | (         | (     |
+| CP               | )         | )     |
 
 ## Priority Order
 
@@ -114,8 +114,7 @@ F -> s               Factor can be Constant
 
 ## Is it a LL Grammar? 
 
-The code works on LR Grammar as it lacks pairwise disjoint. 
-The code works on top down automata.
+The code works on LR Grammar aswell as LL Grammar. It has pairwise disjoint. Go and Stop is one code section. Datatype is a Decleration, Variable is a assigment statment, Restart is a loop statment, Check is a Condition statment. This is LR when an expression tree is constructed and being solved.
 
 ## Is it Ambiguous Grammar? 
 
@@ -124,7 +123,7 @@ If you scroll down to the end you can see the images.
 
 ## Program
 
-To run the program in VS Code run "python cabinet.py"
+To run the program in VS Code run "python JoyStick.py"
 
 ## Working and failing 
 
