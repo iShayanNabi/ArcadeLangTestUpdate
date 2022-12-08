@@ -40,10 +40,10 @@ Code starts with `Go` and ends with `Stop`. Between the block will have all the 
 
 | Token Code | Size    | Literal |
 | ---------- | ------- | ------- |
-| MINI       | 1 byte  | 1b      |
-| NORMAL     | 2 bytes | 2b      |
-| PRO        | 4 bytes | 3b      |
-| PROMAX     | 8 bytes | 4b      |
+| MINI       | 1 byte  | 1s      |
+| NORMAL     | 2 bytes | 2s      |
+| PRO        | 4 bytes | 4s      |
+| PROMAX     | 8 bytes | 8s      |
 
 ### Keyword Types
 
